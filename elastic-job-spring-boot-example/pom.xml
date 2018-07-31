@@ -28,9 +28,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.cxytiandi</groupId>
-			<artifactId>elastic-job-spring-boot-starter</artifactId>
-			<version>1.0.0</version>
+		    <groupId>com.github.yinjihuan</groupId>
+		    <artifactId>elastic-job-spring-boot-starter</artifactId>
+		    <version>1.0.2</version>
 		</dependency>
 
 		<dependency>
@@ -50,4 +50,11 @@
         </dependency>
         
 	</dependencies>
+	
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 </project>
